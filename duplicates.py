@@ -23,7 +23,9 @@
 
 # Input: nums = [1,1,1,3,3,4,3,2,4,2]
 # Output: true
+####################################################
 
+# function to check wether the duplicate numbers exist or not
 def duplicate(nums):
     l = len(nums)
     visited = list()
@@ -34,7 +36,7 @@ def duplicate(nums):
             return True
     return False
 
-
+# driver code
 if __name__ == "__main__":
     nums = [1, 3, 4, 2, 7, 8, 10, 12, 14, 17, 3]
     print(duplicate(nums))
